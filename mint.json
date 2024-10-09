@@ -8,8 +8,8 @@
   "favicon": "/images/nudlelogo.png",
   "colors": {
     "primary": "#000000",
-    "light": "#000000",
-    "dark": "#FFFFFF",
+    "light": "#FFFFFF",
+    "dark": "#000000",
     "anchors": {
       "from": "#0D9373",
       "to": "#07C983"
