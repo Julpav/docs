@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Nudle",
   "logo": {
     "dark": "/images/nudlelogo.png",
     "light": "/images/nudlelogo.png"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/images/nudlelogo.png",
   "colors": {
     "primary": "#000000",
     "light": "#FFFFFF",
