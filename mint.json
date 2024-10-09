@@ -3,7 +3,7 @@
   "name": "Starter Kit",
   "logo": {
     "dark": "/images/nudlelogo.png",
-    "light": "/logo/light.svg"
+    "light": "/images/nudlelogo.png"
   },
   "favicon": "/favicon.svg",
   "colors": {
