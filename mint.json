@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Nudle",
   "logo": {
-    "dark": "/images/nudlelogo.png",
-    "light": "/images/nudlelogo.png"
+    "dark": "/logo/dockslight.png",
+    "light": "/logo/docsdark.png"
   },
   "favicon": "/images/nudlelogo.png",
   "colors": {
