@@ -2,7 +2,7 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Nudle",
   "logo": {
-    "dark": "/logo/dockslight.png",
+    "dark": "/logo/docslight.png",
     "light": "/logo/docsdark.png"
   },
   "favicon": "/images/nudlelogo.png",
