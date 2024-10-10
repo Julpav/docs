@@ -33,11 +33,6 @@
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://docs.nudlelabs.com/"
-    },
-    {
       "name": "Community",
       "icon": "hand-peace",
       "url": "https://discord.gg/nSXBTtpDSJ"
@@ -53,8 +48,7 @@
       "group": "Get Started",
       "pages": [
         "start",
-        "authorization",
-        "development"
+        "authorization"
       ]
     },
     {
