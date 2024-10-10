@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "OpenAPI Plant Store",
+    "title": "Nudle API",
     "description": "A sample API that uses a plant store as an example to demonstrate features in the OpenAPI specification",
     "license": {
       "name": "MIT"
@@ -74,7 +74,7 @@
         },
         "responses": {
           "200": {
-            "description": "plant response",
+            "description": "Plant response",
             "content": {
               "application/json": {
                 "schema": {
@@ -84,7 +84,7 @@
             }
           },
           "400": {
-            "description": "unexpected error",
+            "description": "Unexpected error",
             "content": {
               "application/json": {
                 "schema": {
@@ -117,11 +117,39 @@
             "content": {}
           },
           "400": {
-            "description": "unexpected error",
+            "description": "Unexpected error",
             "content": {
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/placeholder": {
+      "post": {
+        "description": "A placeholder API request for Nudle",
+        "requestBody": {
+          "description": "Example data for a placeholder",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PlaceholderData"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Placeholder response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PlaceholderResponse"
                 }
               }
             }
@@ -180,6 +208,27 @@
             "format": "int32"
           },
           "message": {
+            "type": "string"
+          }
+        }
+      },
+      "PlaceholderData": {
+        "required": [
+          "exampleField"
+        ],
+        "type": "object",
+        "properties": {
+          "exampleField": {
+            "description": "An example field for placeholder data",
+            "type": "string"
+          }
+        }
+      },
+      "PlaceholderResponse": {
+        "type": "object",
+        "properties": {
+          "message": {
+            "description": "Response message",
             "type": "string"
           }
         }
