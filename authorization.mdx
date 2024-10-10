@@ -1,13 +1,16 @@
 ---
 title: 'Authorization'
-description: 'Description of your new file.'
+description: "Let's get authenticated"
 ---
 
-## Properties
+## How it works
+Create requests to the nudle networking using your unique API tokens. Each token has its own usage and limitations, enabling the use of multiple tokens across various applications. 
 
-<ResponseField name="name" type="string" required>
-Name of your project. Used for the global title.
+<ResponseField name="TOKEN" type="string" required>
+(A) unique API token
 
-Example: `mintlify`
+Example: `XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX`
 
 </ResponseField>
+
+Tokens have nicknames that can be seen and modified before and after creation. Additionally, you can delete tokens based on their names to identify which ones may need to be removed.
